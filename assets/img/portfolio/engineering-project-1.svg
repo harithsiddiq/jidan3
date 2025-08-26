@@ -1,0 +1,51 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- Building Structure -->
+  <rect x="50" y="80" width="300" height="180" fill="#e9ecef" stroke="#6c757d" stroke-width="2"/>
+  
+  <!-- Windows -->
+  <rect x="70" y="100" width="40" height="30" fill="#007bff" opacity="0.7"/>
+  <rect x="130" y="100" width="40" height="30" fill="#007bff" opacity="0.7"/>
+  <rect x="190" y="100" width="40" height="30" fill="#007bff" opacity="0.7"/>
+  <rect x="250" y="100" width="40" height="30" fill="#007bff" opacity="0.7"/>
+  <rect x="310" y="100" width="40" height="30" fill="#007bff" opacity="0.7"/>
+  
+  <rect x="70" y="150" width="40" height="30" fill="#007bff" opacity="0.7"/>
+  <rect x="130" y="150" width="40" height="30" fill="#007bff" opacity="0.7"/>
+  <rect x="190" y="150" width="40" height="30" fill="#007bff" opacity="0.7"/>
+  <rect x="250" y="150" width="40" height="30" fill="#007bff" opacity="0.7"/>
+  <rect x="310" y="150" width="40" height="30" fill="#007bff" opacity="0.7"/>
+  
+  <rect x="70" y="200" width="40" height="30" fill="#007bff" opacity="0.7"/>
+  <rect x="130" y="200" width="40" height="30" fill="#007bff" opacity="0.7"/>
+  <rect x="190" y="200" width="40" height="30" fill="#007bff" opacity="0.7"/>
+  <rect x="250" y="200" width="40" height="30" fill="#007bff" opacity="0.7"/>
+  <rect x="310" y="200" width="40" height="30" fill="#007bff" opacity="0.7"/>
+  
+  <!-- HVAC Ducts -->
+  <rect x="60" y="70" width="280" height="8" fill="#6c757d"/>
+  <rect x="60" y="262" width="280" height="8" fill="#6c757d"/>
+  
+  <!-- Fire Safety System -->
+  <circle cx="90" cy="90" r="8" fill="#dc3545"/>
+  <circle cx="150" cy="90" r="8" fill="#dc3545"/>
+  <circle cx="210" cy="90" r="8" fill="#dc3545"/>
+  <circle cx="270" cy="90" r="8" fill="#dc3545"/>
+  <circle cx="330" cy="90" r="8" fill="#dc3545"/>
+  
+  <!-- Electrical Systems -->
+  <line x1="60" y1="275" x2="340" y2="275" stroke="#ffc107" stroke-width="3"/>
+  <circle cx="100" cy="275" r="4" fill="#ffc107"/>
+  <circle cx="200" cy="275" r="4" fill="#ffc107"/>
+  <circle cx="300" cy="275" r="4" fill="#ffc107"/>
+  
+  <!-- Medical Gas Pipes -->
+  <line x1="40" y1="120" x2="40" y2="240" stroke="#28a745" stroke-width="4"/>
+  <line x1="360" y1="120" x2="360" y2="240" stroke="#28a745" stroke-width="4"/>
+  
+  <!-- Title -->
+  <text x="200" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#495057">مجمع طبي - الرياض</text>
+  <text x="200" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6c757d">أنظمة مكافحة الحريق والغازات الطبية</text>
+</svg>
