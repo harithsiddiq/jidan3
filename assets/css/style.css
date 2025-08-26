@@ -8012,6 +8012,7 @@ body.tj-magic-cursor #magic-cursor {
 
 .dark\:text-gray-color-4:is(.dark *){
   color: #FFF;
+  
 }
 
 .dark\:text-white-color:is(.dark *){
