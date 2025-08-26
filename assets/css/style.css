@@ -1216,6 +1216,10 @@ video {
   display: contents;
 }
 
+.text-white{
+  color:#fff
+}
+
 .\!hidden{
   display: none !important;
 }
