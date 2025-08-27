@@ -1547,7 +1547,7 @@ header.main-header .header-sticky.active {
 
 .blog-item {
     border: 1px solid var(--divider-color);
-    
+    border-radius: 40px 40px 0 0;
     height: calc(100% - 30px);
     margin-bottom: 30px;
 }
