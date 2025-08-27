@@ -390,6 +390,12 @@ body {
     letter-spacing: -0.03em;
     margin-bottom: 0;
     cursor: none;
+    position: relative;
+        z-index: 100000;
+}
+
+.section-title h2::before {
+    content: "";
     }
 
     .section-title h2::after {
