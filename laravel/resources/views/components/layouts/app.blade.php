@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" dir="{{ app()->getLocale() === 'ar' ? 'rtl' : 'ltr' }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="dark overflow-x-hidden"
+    dir="{{ app()->getLocale() === 'ar' ? 'rtl' : 'ltr' }}">
 
 <head>
     <meta charset="UTF-8" />
@@ -59,11 +60,9 @@
         </svg>
     </div>
 
-
+    <crm:x-header />
 
     <main class="main-wrapper  overflow-hidden">
-
-        <crm:x-header />
 
 
         {{ $slot }}
