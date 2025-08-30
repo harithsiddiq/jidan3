@@ -1,5 +1,5 @@
         <!-- services -->
-        <section id="services">
+        <section id="services light">
             <div class=" py-60px md:py-20 lg:py-30 relative ">
 
                 <div class="container">

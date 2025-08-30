@@ -69,8 +69,24 @@
                                         @if(!empty($post->excerpt))
                                         {{ $post->excerpt }}
                                         @else
-                                        {{ Str::limit(strip_tags($post->content), 120) }}
-                                        @endif
+
+                    <span
+                        class="prose dark:prose-invert max-w-none text-primary-color-light dark:text-white-color mb-2">
+                        @foreach ($post->blocks as $block)
+                        @switch($block->type)
+                        @case('markdown')
+                        @markdom($block->data->content)
+                        @break
+                        @case('figure')
+                        <x-figure :image="$block->data->image" :alt="$block->data->alt"
+                            :caption="$block->data->caption" />
+                        @break
+                        @default
+                        @dump($block)
+                        @endswitch
+                        @endforeach
+                    </span>
+                                                      @endif
                                     </p>
                                 </div>
                             </div>
