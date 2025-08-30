@@ -25,7 +25,7 @@
                                 <div class="max-w-100px md:max-w-full">
                                     <img class="invert dark:invert-0 w-full transition-all duration-300 group-hover:brightness-100  group-hover:invert-0"
                                         src="{{ asset($image->url ?? $post->getRandomImage()) }}"
-                                        alt="{{ $image->alt ?? "brand image"}}" />
+                                        alt="{{ $image->alt ?? "brand image"}}" width="100" />
                                 </div>
                             </div>
                             @endforeach
