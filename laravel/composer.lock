@@ -11818,12 +11818,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/taba2177/taba-crm.git",
-                "reference": "8981c96c937c5410b9b581c20549dd9bfb2b13c4"
+                "reference": "8c3aa06931c44a3a0a93e1ed2c658441ce8f3668"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/taba2177/taba-crm/zipball/8981c96c937c5410b9b581c20549dd9bfb2b13c4",
-                "reference": "8981c96c937c5410b9b581c20549dd9bfb2b13c4",
+                "url": "https://api.github.com/repos/taba2177/taba-crm/zipball/8c3aa06931c44a3a0a93e1ed2c658441ce8f3668",
+                "reference": "8c3aa06931c44a3a0a93e1ed2c658441ce8f3668",
                 "shasum": ""
             },
             "require": {
@@ -11882,7 +11882,7 @@
                 "issues": "https://github.com/taba2177/taba-crm/issues",
                 "source": "https://github.com/taba2177/taba-crm/tree/main"
             },
-            "time": "2025-08-30T14:18:11+00:00"
+            "time": "2025-08-30T14:37:42+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
