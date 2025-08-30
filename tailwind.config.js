@@ -1,7 +1,6 @@
 import plugin from "@tailwindcss/forms";
 import defaultTheme from "tailwindcss/defaultTheme";
 import { plugins } from "./vendor/taba/crm/tailwind-preset.js";
-const { themeVariants } = require("tailwindcss-theme-variants");
 
 
 module.exports = {
@@ -13,16 +12,5 @@ module.exports = {
         "./vendor/filament/**/*.blade.php",
         "./vendor/taba/crm/resources/views/**/*.blade.php", // Add crm views
     ],
-    plugins: [
-        themeVariants({
-            themes: {
-                light: {
-                    selector: ".light-theme",
-                },
-                dark: {
-                    selector: ".dark-theme",
-                },
-            },
-        }),
-    ],
+
 };
