@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="{{ asset("assets/css/backToTop.css") }}" />
     <link rel="stylesheet" href="{{ asset("assets/css/lightcase.css") }}" />
     <link rel="stylesheet" href="{{ asset("assets/css/style.css") }}" />
+
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+
 </head>
 
 <body class="font-sora dark:bg-dark-color relative">
