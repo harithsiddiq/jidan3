@@ -622,6 +622,16 @@
                                             الحلول الهندسية المتكاملة والمساندة
                                         </h2>
                                     </div>
+                                                <div x-data="{ shown: false }" x-intersect.once="shown = true">
+                                                    <div x-show="shown" x-transition:enter="transition ease-out duration-500" x-transition:enter-start="opacity-0 translate-y-4" x-transition:enter-end="opacity-100 translate-y-0" style="transition-delay: 300ms">
+                                                        <a href="{{ route('franchise-request') }}" rel="noopener" target="_blank" class="block p-4 mt-4 animate-gradient bg-gradient-to-r from-amber-500 via-amber-900 to-amber-700 rounded-xl shadow-md hover:shadow-lg hover:border-stone-500 hover:-translate-y-0.5 transition-all duration-200 text-white text-center">
+                                                            <div class="font-bold text-2xl mb-1">Own Your Franchise</div>
+                                                            {{-- <div class="text-md opacity-90">امتلك امتيازك التجاري</div> --}}
+                                                            <div class="text-sm opacity-90">كن جزءا من نجاح صن رول و امتلك فرعك الخاص</div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
                                     <p class="text-gray-color-2 dark:text-gray-color-2 mt-15px wow fadeInUp "
                                         data-wow-delay=".5s">
                                         نقدم خدمات هندسية متخصصة في تصميم أنظمة MEP والحسابات الهندسية المختلفة بأعلى
