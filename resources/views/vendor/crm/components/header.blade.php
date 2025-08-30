@@ -232,7 +232,15 @@ $categories = \Taba\Crm\Models\PostCategory::RegisterInHeader();
 
                     </ul>
                 </nav>
-
+                <ul>
+                    <li>
+                        <a href="{{ route('lang.switch', ['lang' => app()->getlocale() == 'ar' ? 'en' : 'ar']) }}"
+                            class="text-size-15 font-medium text-seondary-color border-1 border-color-primary dark:text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">
+                            <i class="fas fa-globe mr-1"></i>
+                            {{ __('lang.arabic') }}
+                        </a>
+                    </li>
+                </ul>
                 <!-- social button -->
                 <div
                     class="lg:pl-30px flex items-center  h-75px sm:h-85px md:h-[103px] gap-25px  lg:border-l border-border-coloer dark:border-bg-color-2">
@@ -257,6 +265,15 @@ $categories = \Taba\Crm\Models\PostCategory::RegisterInHeader();
                         </div>
                     </div>
                 </div>
+                <ul>
+                    <li>
+                        <a href="{{ route('lang.switch', ['lang' => app()->getlocale() == 'ar' ? 'en' : 'ar']) }}"
+                            class="text-size-15 font-medium text-seondary-color border-1 border-color-primary dark:text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">
+                            <i class="fas fa-globe mr-1"></i>
+                            {{ __('lang.arabic') }}
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
         <!-- mobile menu -->
