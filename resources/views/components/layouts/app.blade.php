@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="dark overflow-x-hidden"
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class=" overflow-x-hidden"
     dir="{{ app()->getLocale() === 'ar' ? 'rtl' : 'ltr' }}">
 
 <head>

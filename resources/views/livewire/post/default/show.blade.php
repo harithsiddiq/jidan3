@@ -10,7 +10,7 @@
                 <li class="font-semibold text-gray-800" aria-current="page">{{ $post->title }}</li>
             </ol>
         </nav> --}}
-            <x-breadcrumbs :items="[
+        <crm::x-breadcrumbs :items="[
           ['label' => 'الرئيسية', 'url' => route('home')],
           ['label' => $post->postCategory->name, 'url' => route('dynamic.route', [$post->postCategory->slug])],
           ['label' => $post->title, 'url' => '']

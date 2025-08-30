@@ -1,5 +1,5 @@
         <!-- about area -->
-        <section id="about dark:reverse">
+        <section id="about">
             <div class="bg-cream-light-color dark:bg-black-color mx-15px lg:mx-50px rounded-[24px]">
                 <div
                     class=" py-60px md:py-20 lg:py-30 bg-[url('../img/shapes/cta-10-shapes.png')] bg-no-repeat bg-cover bg-[center_center] ">

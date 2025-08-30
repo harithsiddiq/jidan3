@@ -1,5 +1,5 @@
         <!-- hero banner  -->
-        <section class="hero-section relative h-screen overflow-hidden">
+        <section class="dark hero-section relative h-screen overflow-hidden">
             <!-- bg video -->
             <video autoplay muted loop class="top-0 left-0 w-full h-screen object-cover z-10">
                 <source src="{{ asset("/./assets/video/hero.mp4") }}" type="video/mp4">
