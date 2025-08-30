@@ -11,7 +11,7 @@
                                     <div class="mb-25px  ">
                                         <span
                                             class="text-xs  uppercase text-primary-color  font-semibold relative inline-block tracking-0.2em wow fadeInUp"
-                                            data-wow-delay=".3s">خدماتنا</span>
+                                            data-wow-delay=".3s">{{ $posts->first()->postCategory->name}}</span>
 
                                     </div>
                                     <div x-show="shown" x-transition:enter="transition ease-out duration-500"
@@ -22,13 +22,11 @@
                                             class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 uppercase font-semibold  leading-1.2 -tracking-0.02em inline-block text-seondary-color dark:text-white-color  max-w-580px w-full wow fadeInUp "
                                             data-wow-delay=".4s">
 
-                                            الحلول الهندسية المتكاملة والمساندة
-                                        </h2>
+{{ $posts->first()->postCategory->subtitle }}                                        </h2>
                                     </div>
                                     <p class="text-gray-color-2 dark:text-gray-color-2 mt-15px wow fadeInUp "
                                         data-wow-delay=".5s">
-                                        نقدم خدمات هندسية متخصصة في تصميم أنظمة MEP والحسابات الهندسية المختلفة بأعلى
-                                        معايير الجودة والدقة.
+{{ $posts->first()->postCategory->description }}
 
                                     </p>
                                     <div class="mt-30px md:mt-35px wow fadeInUp" data-wow-delay=".6s">
@@ -46,7 +44,7 @@
                                 <div
                                     class="w-full max-w-[405px] md:w-1/2 lg:w-full lg:mx-auto  mt-60px rounded-10px   relative z-0 after:absolute after:top-[-15px] after:right-[-15px] after:w-full after:h-full after:border after:rounded-10px after:border-body-color dark:after:border-bg-color-2 after:-z-1 ">
                                     <img class="rounded-10px"
-                                        src="{{ asset("/./assets/img/services/services-10-images.png") }}" alt="">
+                                        src="{{ asset($post->image?->url ?? "/assets/img/services/services-10-images.png") }}" alt="">
 
                                 </div>
                             </div>
