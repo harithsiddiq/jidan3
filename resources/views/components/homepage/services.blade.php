@@ -96,7 +96,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="{{ route('posts.show', $post) }}" class="absolute top-0 left-0 w-full h-full bg-transparent"></a>
+                        <a href="{{ $post->url }}" class="absolute top-0 left-0 w-full h-full bg-transparent"></a>
                     </div>
                     @endforeach
 
