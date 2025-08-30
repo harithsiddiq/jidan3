@@ -60,7 +60,8 @@
         </svg>
     </div>
 
-    <crm:x-header />
+    <x-crm::header />
+
 
     <main class="main-wrapper  overflow-hidden">
 
@@ -70,7 +71,7 @@
 
     </main>
 
-    <crm:x-footer />
+    <x-crm::footer />
 
     <!-- JSS here -->
     <script src="{{ asset("assets/js/jquery.min.js") }}"></script>
