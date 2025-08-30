@@ -75,7 +75,7 @@
                         @foreach ($post->blocks as $block)
                         @switch($block->type)
                         @case('markdown')
-                        @markdom($block->data->content)
+                        @markdom($block?->data?->content ?? "")
                         @break
                         @case('figure')
                         <x-figure :image="$block->data->image" :alt="$block->data->alt"
