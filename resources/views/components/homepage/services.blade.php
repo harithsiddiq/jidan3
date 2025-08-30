@@ -22,7 +22,8 @@
                                             class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 uppercase font-semibold  leading-1.2 -tracking-0.02em inline-block text-seondary-color dark:text-white-color  max-w-580px w-full wow fadeInUp "
                                             data-wow-delay=".4s">
 
-{{ dd($posts->first()->postCategory->subtitle) }}                                        </h2>
+                                        {{ $posts->first()->postCategory->subtitle }}
+                                   </h2>
                                     </div>
                                     <p class="text-gray-color-2 dark:text-gray-color-2 mt-15px wow fadeInUp "
                                         data-wow-delay=".5s">
