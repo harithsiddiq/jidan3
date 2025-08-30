@@ -7,9 +7,9 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
-                "resources/css/app.css",
-                "resources/js/app.js",
-                "vendor/taba/crm/src/resources/css/admin.css",
+                "laravel/resources/css/app.css",
+                "laravel/resources/js/app.js",
+                "laravel/vendor/taba/crm/src/resources/css/admin.css",
             ],
             refresh: true,
         }),
