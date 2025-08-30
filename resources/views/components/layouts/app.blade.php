@@ -8,6 +8,9 @@
 
     <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" href="{{ asset("/assets/img/favicon.png") }}" type="image/x-icon" />
+
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+
     <!-- CSS here -->
     <link rel="stylesheet" href="{{ asset("assets/css/animate.min.css") }}" />
     <link rel="stylesheet" href="{{ asset("assets/css/font-awesome-pro.min.css") }}" />
@@ -23,7 +26,6 @@
     <link rel="stylesheet" href="{{ asset("assets/css/lightcase.css") }}" />
     <link rel="stylesheet" href="{{ asset("assets/css/style.css") }}" />
 
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     @livewireStyles
 
