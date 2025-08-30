@@ -19,12 +19,13 @@
                     <div class="tj-marquee tj-marquee--3 swiper  ">
                         <div class="swiper-wrapper">
                             @foreach($posts as $index => $post)
+                            @foreach($post->images as $index => $image)
                             <div
                                 class="swiper-slide cursor-pointer max-w-full !w-[200px] h-[84px] rounded-10px bg-cream-light-color dark:bg-black-color flex items-center justify-center relative z-0 overflow-hidden after:absolute after:left-0 after:right-0 after:w-full after:h-full after:-z-1 after:opacity-0 after:transition-all after:duration-300 after:bg-200 after:bg-gradient-secondary hover:after:opacity-100 group">
                                 <div class="max-w-100px md:max-w-full">
                                     <img class="invert dark:invert-0 w-full transition-all duration-300 group-hover:brightness-100  group-hover:invert-0"
-                                        src="{{ asset($post->image?->url ?? $post->getRandomImage()) }}"
-                                        alt="{{ $post->image?->alt ?? "brand image"}}" />
+                                        src="{{ asset($image->url ?? $post->getRandomImage()) }}"
+                                        alt="{{ $image->alt ?? "brand image"}}" />
                                 </div>
                             </div>
                             @endforeach
