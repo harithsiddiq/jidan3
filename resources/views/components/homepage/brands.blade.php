@@ -9,7 +9,7 @@
                     class="text-size-13 sm:text-base font-semibold uppercase inline-block px-6 bg-white-color dark:bg-primary-color-light text-seondary-color dark:text-white-color">
 
                     <span class="text-primary-color">
-                        {{ $posts->first()->postCategory->name}}+
+                        {{ $posts->first()->postCategory->name}}
                     </span>
                     {{ $posts->first()->postCategory->subtitle}}
                 </p>
