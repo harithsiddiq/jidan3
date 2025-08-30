@@ -1,0 +1,75 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- Factory Building -->
+  <rect x="50" y="120" width="300" height="120" fill="#e9ecef" stroke="#6c757d" stroke-width="2"/>
+  
+  <!-- Factory Roof -->
+  <polygon points="50,120 200,80 350,120" fill="#adb5bd" stroke="#6c757d" stroke-width="2"/>
+  
+  <!-- Factory Windows -->
+  <rect x="80" y="140" width="30" height="40" fill="#007bff" opacity="0.7"/>
+  <rect x="130" y="140" width="30" height="40" fill="#007bff" opacity="0.7"/>
+  <rect x="180" y="140" width="30" height="40" fill="#007bff" opacity="0.7"/>
+  <rect x="230" y="140" width="30" height="40" fill="#007bff" opacity="0.7"/>
+  <rect x="280" y="140" width="30" height="40" fill="#007bff" opacity="0.7"/>
+  
+  <!-- Large Factory Door -->
+  <rect x="150" y="190" width="100" height="50" fill="#6c757d" stroke="#495057" stroke-width="2"/>
+  <rect x="160" y="200" width="80" height="30" fill="#adb5bd"/>
+  
+  <!-- Electrical Panels -->
+  <rect x="60" y="200" width="20" height="30" fill="#ffc107" stroke="#e0a800" stroke-width="1"/>
+  <rect x="320" y="200" width="20" height="30" fill="#ffc107" stroke="#e0a800" stroke-width="1"/>
+  
+  <!-- Power Lines -->
+  <line x1="30" y1="100" x2="370" y2="100" stroke="#495057" stroke-width="4"/>
+  <circle cx="100" cy="100" r="3" fill="#495057"/>
+  <circle cx="200" cy="100" r="3" fill="#495057"/>
+  <circle cx="300" cy="100" r="3" fill="#495057"/>
+  
+  <!-- Electrical Poles -->
+  <rect x="98" y="100" width="4" height="20" fill="#6c757d"/>
+  <rect x="198" y="100" width="4" height="20" fill="#6c757d"/>
+  <rect x="298" y="100" width="4" height="20" fill="#6c757d"/>
+  
+  <!-- Industrial Lighting -->
+  <circle cx="100" cy="130" r="8" fill="#ffc107" opacity="0.8"/>
+  <circle cx="150" cy="130" r="8" fill="#ffc107" opacity="0.8"/>
+  <circle cx="200" cy="130" r="8" fill="#ffc107" opacity="0.8"/>
+  <circle cx="250" cy="130" r="8" fill="#ffc107" opacity="0.8"/>
+  <circle cx="300" cy="130" r="8" fill="#ffc107" opacity="0.8"/>
+  
+  <!-- Light Beams -->
+  <polygon points="92,138 108,138 115,160 85,160" fill="#fff3cd" opacity="0.6"/>
+  <polygon points="142,138 158,138 165,160 135,160" fill="#fff3cd" opacity="0.6"/>
+  <polygon points="192,138 208,138 215,160 185,160" fill="#fff3cd" opacity="0.6"/>
+  <polygon points="242,138 258,138 265,160 235,160" fill="#fff3cd" opacity="0.6"/>
+  <polygon points="292,138 308,138 315,160 285,160" fill="#fff3cd" opacity="0.6"/>
+  
+  <!-- Electrical Conduits -->
+  <rect x="70" y="250" width="260" height="6" fill="#6c757d"/>
+  <rect x="70" y="260" width="260" height="6" fill="#28a745"/>
+  <rect x="70" y="270" width="260" height="6" fill="#dc3545"/>
+  
+  <!-- Junction Boxes -->
+  <rect x="120" y="245" width="15" height="15" fill="#495057"/>
+  <rect x="180" y="245" width="15" height="15" fill="#495057"/>
+  <rect x="240" y="245" width="15" height="15" fill="#495057"/>
+  <rect x="280" y="245" width="15" height="15" fill="#495057"/>
+  
+  <!-- Transformer -->
+  <rect x="20" y="180" width="25" height="40" fill="#17a2b8" stroke="#0c5460" stroke-width="2"/>
+  <circle cx="32.5" cy="200" r="8" fill="#0c5460"/>
+  <text x="32.5" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">T</text>
+  
+  <!-- Generator -->
+  <rect x="355" y="180" width="25" height="40" fill="#fd7e14" stroke="#e55100" stroke-width="2"/>
+  <circle cx="367.5" cy="200" r="8" fill="#e55100"/>
+  <text x="367.5" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">G</text>
+  
+  <!-- Title -->
+  <text x="200" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#495057">مصنع - الدمام</text>
+  <text x="200" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6c757d">الأنظمة الكهربائية وأنظمة الإنارة الصناعية</text>
+</svg>
