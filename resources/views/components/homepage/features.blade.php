@@ -1,6 +1,6 @@
 
         <!-- features area -->
-        <section id="features" class="dark">
+        <section id="features" >
             <div class="py-60px md:py-100px lg:py-30">
                 <div class="container">
                     <!-- section heading -->

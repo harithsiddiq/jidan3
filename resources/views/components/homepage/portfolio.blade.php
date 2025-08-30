@@ -1,5 +1,5 @@
         <!-- portfolio area -->
-        <section id="portfolio" class="portfolio-filter relative z-0  ">
+        <section id="portfolio" class="dark portfolio-filter relative z-0  ">
             <div class="py-60px md:py-100px lg:py-30">
                 <div class="container">
                     <!-- section heading -->
