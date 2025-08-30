@@ -1,18 +1,15 @@
-import { defineConfig } from 'vite';
-import laravel from 'laravel-vite-plugin';
-import tailwindcss from '@tailwindcss/vite';
-
+import { defineConfig } from "vite";
+import laravel from "laravel-vite-plugin";
 
 export default defineConfig({
     plugins: [
         laravel({
             input: [
-                "laravel/resources/css/app.css",
-                "laravel/resources/js/app.js",
-                "laravel/vendor/taba/crm/src/resources/css/admin.css",
+                "resources/css/app.css",
+                "resources/js/app.js",
+                "vendor/taba/crm/src/resources/css/admin.css", // If you have an admin panel
             ],
             refresh: true,
         }),
-        tailwindcss(),
     ],
 });
