@@ -136,7 +136,7 @@
                     <i class="icofont-headphone-alt icofont-4x text-primary"></i>
                     <h3 class="text-2xl font-bold bg-white -mt-4">هل تحتاج مساعدة؟</h3>
                     <p class="text-gray-600 my-3">نحن هنا لمساعدتك في أي أسئلة لديك</p>
-                    <x-button href="{{ url('tel:966501253111') }}" label="تواصل معنا" icon="fa-arrow-left" />
+                    <button href="{{ url('tel:966501253111') }}" label="تواصل معنا" icon="fa-arrow-left" >
                 </div>
             </div>
         </div>
