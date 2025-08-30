@@ -67,7 +67,7 @@
 
         {{ $slot }}
 
-
+        
     </main>
 
     <crm:x-footer />
@@ -88,7 +88,6 @@
     <script src="{{ asset("assets/js/backToTop.js") }}"></script>
     <script src="{{ asset("assets/js/lenis.min.js") }}"></script>
     <script src="{{ asset("assets/js/swiper.min.js") }}"></script>
-
     <script src="{{ asset("assets/js/vanilla-tilt.min.js") }}"></script>
     <script src="{{ asset("assets/js/sticky.min.js") }}"></script>
     <script src="{{ asset("assets/js/lightcase.js") }}"></script>
