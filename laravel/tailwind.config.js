@@ -7,6 +7,6 @@ import defaultTheme from 'tailwindcss/defaultTheme';
          "./resources/views/filament/**/*.blade.php",
          "./resources/views/**/*.blade.php",
          "./vendor/filament/**/*.blade.php",
-         "./vendor/taba/crm/src/resources/views/**/*.blade.php", // Add crm views
+         "./packages/taba/crm/resources/views/**/*.blade.php", // Add crm views
      ],
  };
