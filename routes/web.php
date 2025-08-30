@@ -2,6 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/2', function () {
+Route::get('/old', function () {
     return view('welcome');
 });
