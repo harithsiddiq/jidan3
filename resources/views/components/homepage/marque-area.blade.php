@@ -9,8 +9,8 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="roll-icon w-5 mx-30px lg:mx-60px">
-                                    <img class="portal-icon w-full animate-animate-spin-reverse "
-                                        src="{{ asset("/assets/images/jidanlogo-removebg-preview.png") }}" alt="Icon" />
+                                    <img class="portal-icon w-full"
+                                        src="{{ asset("/images/jidanlogo-removebg-preview.png") }}" alt="Icon" />
                                 </div>
                                 <div class="roll-title">
                                     <h5 class="text-white-color title md:text-xl font-extrabold uppercase">
