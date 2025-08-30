@@ -588,11 +588,16 @@
                       class="text-xs  uppercase text-primary-color  font-semibold relative inline-block tracking-0.2em wow fadeInUp"
                       data-wow-delay=".3s">خدماتنا</span>
                   </div>
+                   <div x-show="shown" x-transition:enter="transition ease-out duration-500"
+                    x-transition:enter-start="opacity-0 translate-y-4"
+                    x-transition:enter-end="opacity-100 translate-y-0" style="transition-delay: 300ms">
                   <h2
+                    class="block p-4 mt-4 animate-gradient bg-gradient-to-r from-amber-500 via-amber-900 to-amber-700 rounded-xl shadow-md hover:shadow-lg hover:border-stone-500 hover:-translate-y-0.5 transition-all duration-200 text-white text-center"
                     class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 uppercase font-semibold  leading-1.2 -tracking-0.02em inline-block text-seondary-color dark:text-white-color  max-w-580px w-full wow fadeInUp "
                     data-wow-delay=".4s">
                     الحلول الهندسية المتكاملة والمساندة
                   </h2>
+                  </div>
                   <p class="text-gray-color-2 dark:text-gray-color-2 mt-15px wow fadeInUp " data-wow-delay=".5s">
                     نقدم خدمات هندسية متخصصة في تصميم أنظمة MEP والحسابات الهندسية المختلفة بأعلى معايير الجودة والدقة.
                   </p>
