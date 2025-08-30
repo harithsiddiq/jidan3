@@ -70,6 +70,8 @@
                                         {{ $post->excerpt }}
                                         @else
 
+                                        {{ dd($block->data->content) }}
+
                     <span
                         class="prose dark:prose-invert max-w-none text-primary-color-light dark:text-white-color mb-2">
                         @foreach ($post->blocks as $block)
