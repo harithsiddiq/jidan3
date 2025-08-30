@@ -34,16 +34,7 @@
                       <x-button href="{{ $post->editUrl }}" label="تعديل المقال" icon="fa-arrow-left" />
                       @endif
                     </div>
-                    <x-portfolio.meta-grid>
-                      <x-portfolio.meta-item label="التصنيف" value="{{ $post->tags->isNotEmpty() ? $post->tags->first()->name : 'مقالة عامة' }}" />
-                      <x-portfolio.meta-item label="الناشر" value="{{ $post->user->name }}" />
-                      <x-portfolio.meta-item label="تاريخ النشر" value="{{ $post->published_at->translatedFormat('j F، Y', 'ar') }}" />
-                      <x-portfolio.meta-item label="الوسوم">
-                        @foreach ($post->tags as $tag)
-                        <span class="mr-2 rtl:ml-2">{{ $tag->name }}</span>
-                        @endforeach
-                      </x-portfolio.meta-item>
-                    </x-portfolio.meta-grid>
+
                   </div>
                   <!-- slider -->
                   {{--
@@ -73,7 +64,6 @@
                   </x-portfolio.gallery>
                   @endif --}}
                   <div class="px-15px md:px-25px lg:px-10">
-                    <x-portfolio.section>
                       <div class="prose dark:prose-invert max-w-none text-primary-color-light dark:text-white-color">
                         @foreach ($post->blocks as $block)
                         @switch($block->type)
@@ -88,7 +78,6 @@
                         @endswitch
                         @endforeach
                       </div>
-                    </x-portfolio.section>
                   </div>
                   @if($post->homepage_section_component && $post->homepage_section_content)
                   <div class="px-15px md:px-25px lg:px-10 mb-10 md:mb-50px">
@@ -127,7 +116,7 @@
                     <h3 class="h3-md fw-5 txt-orange mb-4">هل تحتاج مساعدة؟</h3>
                     <p class="text-primary-color-light dark:text-white-color">نحن هنا لمساعدتك في أي أسئلة لديك</p>
                     <p class="text-primary-color-light dark:text-white-color mb-4">لا تتردد في الاتصال بنا</p>
-                    <x-button href="{{ url('tel:966501253111') }}" label="تواصل معنا" icon="fa-arrow-left" />
+                    <button href="{{ url('tel:966501253111') }}" label="تواصل معنا" icon="fa-arrow-left">
                   </div>
                 </div>
               </div>
