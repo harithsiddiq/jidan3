@@ -70,12 +70,9 @@
                                         {{ $post->excerpt }}
                                         @else
 
-                                        {{ dd($post) }}
-
                     <span
                         class="prose dark:prose-invert max-w-none text-primary-color-light dark:text-white-color mb-2">
                         @foreach ($post->blocks as $block)
-
                         @switch($block->type)
                         @case('markdown')
                         @markdom($block->data->content)
