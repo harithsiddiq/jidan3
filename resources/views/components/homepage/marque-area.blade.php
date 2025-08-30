@@ -20,8 +20,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="roll-icon w-5 mx-30px lg:mx-60px">
-                                    <img class="portal-icon w-full animate-animate-spin-reverse "
-                                        src="{{ asset("/assets/img/icons/star.svg") }}" alt="Icon" />
+                                    <img class="portal-icon w-full"
+                                        src="{{ asset("/images/jidanlogo-removebg-preview.png") }}" alt="Icon" />
 
 
                                 </div>
@@ -33,8 +33,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="roll-icon w-5 mx-30px lg:mx-60px">
-                                    <img class="portal-icon w-full animate-animate-spin-reverse "
-                                        src="{{ asset("/assets/img/icons/star.svg") }}" alt="Icon" />
+                                              <img class="portal-icon w-full"
+                                        src="{{ asset("/images/jidanlogo-removebg-preview.png") }}" alt="Icon" />
 
 
                                 </div>
@@ -46,8 +46,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="roll-icon w-5 mx-30px lg:mx-60px">
-                                    <img class="portal-icon w-full animate-animate-spin-reverse "
-                                        src="{{ asset("/assets/img/icons/star.svg") }}" alt="Icon" />
+                                              <img class="portal-icon w-full"
+                                        src="{{ asset("/images/jidanlogo-removebg-preview.png") }}" alt="Icon" />
 
 
                                 </div>
@@ -59,8 +59,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="roll-icon w-5 mx-30px lg:mx-60px">
-                                    <img class="portal-icon w-full animate-animate-spin-reverse "
-                                        src="{{ asset("/assets/img/icons/star.svg") }}" alt="Icon" />
+                                              <img class="portal-icon w-full"
+                                        src="{{ asset("/images/jidanlogo-removebg-preview.png") }}" alt="Icon" />
 
 
                                 </div>
@@ -72,8 +72,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="roll-icon w-5 mx-30px lg:mx-60px">
-                                    <img class="portal-icon w-full animate-animate-spin-reverse "
-                                        src="{{ asset("/assets/img/icons/star.svg") }}" alt="Icon" />
+                                              <img class="portal-icon w-full"
+                                        src="{{ asset("/images/jidanlogo-removebg-preview.png") }}" alt="Icon" />
 
 
                                 </div>
@@ -85,8 +85,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="roll-icon w-5 mx-30px lg:mx-60px">
-                                    <img class="portal-icon w-full animate-animate-spin-reverse "
-                                        src="{{ asset("/assets/img/icons/star.svg") }}" alt="Icon" />
+                                              <img class="portal-icon w-full"
+                                        src="{{ asset("/images/jidanlogo-removebg-preview.png") }}" alt="Icon" />
 
 
                                 </div>
