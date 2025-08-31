@@ -30,7 +30,7 @@ Description: Gerold - Personal Portfolio Tailwind CSS Template
   sidebar css
   portfolio css
 
-  
+
 **********************************************/
 
 /* font family */
@@ -161,7 +161,7 @@ Description: Gerold - Personal Portfolio Tailwind CSS Template
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: #ebe9e5;
   /* 2 */
 }
 
@@ -5797,7 +5797,7 @@ body.tj-magic-cursor #magic-cursor {
   border: 0;
 }
 
-/* Ball view 
+/* Ball view
 ============= */
 
 #ball .ball-view {
@@ -5815,7 +5815,7 @@ body.tj-magic-cursor #magic-cursor {
   color: var(--white-color);
 }
 
-/* Ball drag 
+/* Ball drag
 ============= */
 
 #ball .ball-drag {
@@ -5871,7 +5871,7 @@ body.tj-magic-cursor #magic-cursor {
   transform: translate3d(0, 0, 0);
 }
 
-/* Ball close 
+/* Ball close
 ============== */
 
 #ball.ball-close-enabled {
@@ -8012,7 +8012,7 @@ body.tj-magic-cursor #magic-cursor {
 
 .dark\:text-gray-color-4:is(.dark *){
   color: #FFF;
-  
+
 }
 
 .dark\:text-white-color:is(.dark *){
