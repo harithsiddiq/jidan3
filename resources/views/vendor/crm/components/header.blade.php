@@ -5,7 +5,7 @@ $categories = \Taba\Crm\Models\PostCategory::RegisterInHeader();
 
 @endphp
 <!-- header area  -->
-<header class="header-area header-absolute rtl:right-0 rtl:left-none">
+<header class="dark header-area header-absolute rtl:right-0 rtl:left-none">
     <div class="pt-15px xl:pt-5 pb-5 md:pb-30px xl:pb-5 relative">
         <div class="container">
             <div class="flex flex-wrap justify-between items-center">

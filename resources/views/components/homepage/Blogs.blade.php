@@ -1,6 +1,6 @@
 <!-- Blogs area -->
-<section>
-    <div id="blogs" class="dark:bg-primary-color-light py-60px md:py-20 lg:py-100px xl:py-30">
+<section id="blogs" class="dark">
+    <div  class="dark:bg-primary-color-light py-60px md:py-20 lg:py-100px xl:py-30">
         <div class="container">
             <!-- section heading -->
             <div class="mb-10 md:mb-50px xl:mb-60px text-center flex flex-col items-center ">

@@ -1,7 +1,7 @@
         @props(['posts'])
         @if(!empty($posts))
         <!-- start: Brand Marque Area -->
-        <div class=" pt-60px md:pt-20 lg:pt-30 overflow-x-hidden wow fadeInUp " data-wow-delay=".3s">
+        <div class="dark pt-60px md:pt-20 lg:pt-30 overflow-x-hidden wow fadeInUp " data-wow-delay=".3s">
 
             <div
                 class="text-center mb-50px md:mb-60px after:w-full after:h-1px after:bg-body-color dark:after:bg-dark-color-2 after:absolute after:top-1/2 after:left-0 after:-translate-y-1/2 relative z-0 after:-z-1 ">
