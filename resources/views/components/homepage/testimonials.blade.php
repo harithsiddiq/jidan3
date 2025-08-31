@@ -1,5 +1,5 @@
      <!-- testimonials area -->
-        <section id="testimonials" class="dark">
+        <section id="testimonials" >
             <div class="pb-60px md:pb-20 lg:pb-30 overflow-hidden">
                 <div class="container">
                     <div class="testimonials ">
