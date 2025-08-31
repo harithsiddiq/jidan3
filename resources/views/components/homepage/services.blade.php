@@ -2,7 +2,7 @@
 @if(!empty($posts))
 <!-- services -->
 
-<section id="services">
+<section id="services" >
     <div class="py-60px md:py-20 lg:py-30 relative">
         <div class="container">
             <div class="flex flex-wrap justify-between gap-10px lg:gap-10 xl:gap-35px">
