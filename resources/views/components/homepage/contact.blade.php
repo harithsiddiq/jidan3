@@ -1,5 +1,5 @@
         <!-- contact area -->
-        <section id="contact" class="dark">
+        <section id="contact" class="light">
             <div class="bg-cream-light-color dark:bg-black-color py-60px md:py-20 lg:py-100px xl:py-30">
                 <div class="container">
                     <div class="grid lg:grid-cols-12 gap-30px">
