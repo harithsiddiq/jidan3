@@ -4,11 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
     :root.light {
-        color-scheme: light;
+        color-scheme: white;
     }
-}
 
 /* .glass-effect {
     @apply bg-white/10 backdrop-blur-lg border border-white/20;
