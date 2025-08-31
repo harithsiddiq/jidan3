@@ -26,7 +26,7 @@
                                 {{ $posts->first()->postCategory->description }}
                             </p>
                             <div class="mt-30px md:mt-35px wow fadeInUp" data-wow-delay=".6s">
-                                <a href="{{ url('#') }}"
+                                <a href="{{  route('dynamic.route', [$posts->first()->postCategory->slug]) }}"
                                     class="text-size-15 font-bold text-white-color capitalize py-17px px-35px bg-200 bg-gradient-secondary hover:bg-[-100%] rounded-full inline-flex gap-10px items-center leading-1 transition-all duration-300 group wow fadeInRight"
                                     data-wow-delay=".5s">
                                     المزيد من الخدمات <i class="fa-regular fa-arrow-right transition-all duration-400 -rotate-45 group-hover:rotate-0"></i>
