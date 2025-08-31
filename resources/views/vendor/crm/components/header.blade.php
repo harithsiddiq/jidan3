@@ -102,7 +102,7 @@ $categories = \Taba\Crm\Models\PostCategory::RegisterInHeader();
 </header>
 
 <!-- sticky -->
-<header class="dark header-area header-2 header-sticky">
+<header class="header-area header-2 header-sticky">
     <div class="py-10px relative">
         <div class="container">
             <div class="flex flex-wrap justify-between items-center">

@@ -41,7 +41,7 @@
             <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
         </svg>
 
-        <div class="preloader-heading">
+        <div class="preloader-heading dark">
             <div class="load-text">
                 <span>L</span>
                 <span>o</span>
@@ -56,7 +56,7 @@
     <!-- Preloader Area End -->
 
     <!-- start: Back To Top -->
-    <div class="progress-wrap" id="scrollUp">
+    <div class="progress-wrap dark" id="scrollUp">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
         </svg>
@@ -65,7 +65,7 @@
     <x-crm::header />
 
 
-    <main class="main-wrapper  overflow-hidden">
+    <main class="main-wrapper dark overflow-hidden">
 
 
         {{ $slot }}
