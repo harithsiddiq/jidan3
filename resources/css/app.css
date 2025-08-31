@@ -21,7 +21,30 @@
 .dark-theme {
   @apply bg-gray-900 text-white;
 }
+.light-theme {
+  color-scheme: light;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
 
+.dark-theme {
+  color-scheme: dark;
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+/* Override dark: variants inside forced sections */
+.light-theme .dark\:bg-gray-800 {
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
+.dark-theme .dark\:bg-gray-800 {
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
 /* .glass-effect {
     @apply bg-white/10 backdrop-blur-lg border border-white/20;
 }
