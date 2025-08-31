@@ -98,8 +98,8 @@
                         </div>
                         <a href="{{ $post->url }}" class="absolute top-0 left-0 w-full h-full bg-transparent"></a>
                     </div>
+                     @break($index==4)
                     @endforeach
-
                     <div class="active-bg hidden sm:block rounded-15px !-z-1 wow fadeInUp" data-wow-delay=".3s"></div>
                 </div>
             </div>
