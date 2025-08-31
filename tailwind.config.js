@@ -12,5 +12,5 @@ module.exports = {
         "./vendor/filament/**/*.blade.php",
         "./vendor/taba/crm/resources/views/**/*.blade.php", // Add crm views
     ],
-
+    darkMode: "class",
 };

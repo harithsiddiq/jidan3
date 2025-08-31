@@ -3,10 +3,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Force light theme on a section */
+.light-theme {
+  color-scheme: light;
+}
 
-    :root.light {
-        color-scheme: white;
-    }
+/* Force dark theme on a section */
+.dark-theme {
+  color-scheme: dark;
+}
+
+/* Optional: Add base styles for consistency */
+.light-theme {
+  @apply bg-white text-gray-900;
+}
+
+.dark-theme {
+  @apply bg-gray-900 text-white;
+}
 
 /* .glass-effect {
     @apply bg-white/10 backdrop-blur-lg border border-white/20;
