@@ -41,7 +41,7 @@
             <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
         </svg>
 
-        <div class="preloader-heading dark">
+        <div class="preloader-heading ">
             <div class="load-text">
                 <span>L</span>
                 <span>o</span>
