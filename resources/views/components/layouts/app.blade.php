@@ -29,7 +29,7 @@
 
     @livewireStyles
 
-    {{ seo()->render() }}
+    {{-- {{ seo()->render() }} --}}
 
 </head>
 
