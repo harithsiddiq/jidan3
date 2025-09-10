@@ -289,7 +289,7 @@ indexing and active link
 						slidesPerView: 2,
 					},
 					992: {
-						slidesPerView: 4,
+						slidesPerView: 3,
 					},
 				},
 			});
